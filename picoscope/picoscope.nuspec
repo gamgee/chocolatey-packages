@@ -8,13 +8,14 @@
     <title>picoscope (Install)</title>
     <authors>Pico Technology Limited</authors>
     <projectUrl>https://www.picotech.com/downloads</projectUrl>
-    <requireLicenseAcceptance>true</requireLicenseAcceptance>-->
     <docsUrl>https://www.picotech.com/download/manuals/picoscope-6-users-guide.pdf</docsUrl>
     <tags>picoscope oscilloscope picotech</tags>
     <summary>PicoScope 6 oscilloscope software</summary>
     <description>PicoScope 6 is the latest version of our oscilloscope software. This release is compatible with all non-automotive USB PC Oscilloscopes (PicoScope Automotive is available for users of Automotive Oscilloscopes).</description>
     <releaseNotes>- Fixed an issue with analog channel triggering using a PicoScope 5000A/B or D series oscilloscopes
     - Fixed an issue where editing a custom probe caused the program to crash</releaseNotes>
+    <iconUrl>https://cdn.jsdelivr.net/gh/gamgee/chocolatey-packages/icons/picoscope6.png</iconUrl>
+    <copyright>Copyright © 1995-2019, Pico Technology Ltd.</copyright>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
