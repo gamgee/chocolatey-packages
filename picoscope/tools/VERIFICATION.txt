@@ -10,7 +10,7 @@ prior to the installation to allow for a silent setup procedure.
 
 The certificate is included in the official installer and can be verified like this:
 
-1. Download the installer <https://www.picotech.com/download/software/sr/PicoScope6_r6_14_10.exe>
+1. Download the installer <https://www.picotech.com/download/software/beta/PicoScope6_r6_14_23.exe>
 2. Run the installer manually, preferably in a vm 
 3. When asked "Would you like to install this device software?" make sure "Always trust software from 'Pico Technology Ltd'" is checked and click "Install"
 4. Once setup is complete run 'certlm'
