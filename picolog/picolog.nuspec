@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>picolog</id>
+    <version>6.1.18</version>
+    <packageSourceUrl>https://github.com/gamgee/chocolatey-packages</packageSourceUrl>
+    <owners>Johannes Müller</owners>
+    <title>picolog (Install)</title>
+    <authors>Pico Technology Limited</authors>
+    <projectUrl>https://www.picotech.com/downloads</projectUrl>
+    <docsUrl>https://www.picotech.com/download/manuals/PicoLogUsersGuide.pdf</docsUrl>
+    <tags>picolog oscilloscope picotech daq logging</tags>
+    <summary>PicoLog 6 data logging software</summary>
+    <description>PicoLog 6 is a complete data acquisition software package. It provides a visual, easy-to-use interface for users to quickly set up simple or complex acquisitions, record, view and analyze data.</description>
+    <releaseNotes>
+      - Added support for new PicoScope 4000A devices
+      - Allow reduced screen resolution to support smaller 800 x 480 Raspberry Pi screens
+    </releaseNotes>
+    <iconUrl>https://cdn.jsdelivr.net/gh/gamgee/chocolatey-packages/icons/picolog6.png</iconUrl>
+    <copyright>Copyright © 1995-2020, Pico Technology Ltd.</copyright>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
