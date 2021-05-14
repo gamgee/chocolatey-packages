@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>picoscope</id>
-    <version>6.14.23</version>
+    <version>6.14.44</version>
     <packageSourceUrl>https://github.com/gamgee/chocolatey-packages</packageSourceUrl>
     <owners>Johannes Müller</owners>
     <title>picoscope (Install)</title>
@@ -12,7 +12,11 @@
     <tags>picoscope oscilloscope picotech</tags>
     <summary>PicoScope 6 oscilloscope software</summary>
     <description>PicoScope 6 is the latest version of our oscilloscope software. This release is compatible with all non-automotive USB PC Oscilloscopes (PicoScope Automotive is available for users of Automotive Oscilloscopes).</description>
-    <releaseNotes>- Support for PicoScope 6424E, 6404E and 6403E 4-channel oscilloscopes</releaseNotes>
+    <releaseNotes>
+      - Added support for for new PicoScope 6000E series 750 MHz and 1 GHz oscilloscopes
+      - Added support for Pico Intelligent Probe Interface
+      - Added support for new A3000 Active probes for PicoScope 6000E
+    </releaseNotes>
     <iconUrl>https://cdn.jsdelivr.net/gh/gamgee/chocolatey-packages/icons/picoscope6.png</iconUrl>
     <copyright>Copyright © 1995-2020, Pico Technology Ltd.</copyright>
   </metadata>
