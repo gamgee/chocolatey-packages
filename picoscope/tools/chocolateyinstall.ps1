@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://www.picotech.com/download/software/sr/PicoScope6_6.14.44.5870.exe'
+$url        = 'https://www.picotech.com/download/software/sr/PicoScope_7.1.2.15463_TnM_Stable.exe'
 
 $cert = Get-ChildItem Cert:\CurrentUser\TrustedPublisher -Recurse | Where-Object { $_.Thumbprint -eq '‎bae19ab8365e8e08a17df2b42852a4afd81be504' }
 
@@ -14,7 +14,7 @@ $packageArgs = @{
   fileType      = 'EXE' #only one of these: exe, msi, msu
   url           = $url
   softwareName  = 'picoscope*'
-  checksum      = '06c8a3562ec0bd2cc75708b775671760b78e6a485b358e71fbdca6b6560e8f6f'
+  checksum      = 'f7f9b884ce20616d69a752934c83bb747d2ecfea01a98ff21dbed1a1c3fed160'
   checksumType  = 'sha256'
   silentArgs   = '/s /v"/qn"'
   validExitCodes= @(0)

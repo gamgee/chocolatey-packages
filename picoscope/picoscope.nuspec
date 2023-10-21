@@ -2,22 +2,37 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>picoscope</id>
-    <version>6.14.44</version>
+    <version>7.1.2</version>
     <packageSourceUrl>https://github.com/gamgee/chocolatey-packages</packageSourceUrl>
     <owners>Johannes Müller</owners>
     <title>picoscope (Install)</title>
     <authors>Pico Technology Limited</authors>
     <projectUrl>https://www.picotech.com/downloads</projectUrl>
-    <docsUrl>https://www.picotech.com/download/manuals/picoscope-6-users-guide.pdf</docsUrl>
+    <docsUrl>https://www.picotech.com/products/picoscope-7-software</docsUrl>
     <tags>picoscope oscilloscope picotech</tags>
-    <summary>PicoScope 6 oscilloscope software</summary>
-    <description>PicoScope 6 is the latest version of our oscilloscope software. This release is compatible with all non-automotive USB PC Oscilloscopes (PicoScope Automotive is available for users of Automotive Oscilloscopes).</description>
+    <summary>PicoScope 7 oscilloscope software</summary>
+    <description>The next-generation user interface for any real-time PicoScope.</description>
     <releaseNotes>
-      - Added support for for new PicoScope 6000E series 750 MHz and 1 GHz oscilloscopes
-      - Added support for Pico Intelligent Probe Interface
-      - Added support for new A3000 Active probes for PicoScope 6000E
+      - Persistence View is now available. Open the Instruments panel and select "Persistence" to superimpose multiple waveforms on the same view, with more frequent data or newer waveforms drawn in brighter colors than older ones. Adjust the settings in the Persistence options panel.
+      - Channel-to-channel Phase measurement and Time delay measurement can now be used to measure the phase difference between two selected channels.
+      - Now possible to use the "Phase" function as part of a math formula when creating a Math channel.
+      - Matlab 5 file format exporting is now possible for scope data.
+      - NMEA Wind Sensor Decoder has been added.
+      - Standard UART Decoder now supports up to 32 data bits.
+      - Sin(x)/x interpolation will now automatically be applied when waveform captures are below 2000 points in memory.
+      - Save menu now displays a more familiar "Browse" dialog for selecting folder location, or selecting to overwrite existing files.
+      - Added measurement options will now be displayed as a measurement is added for quicker setup.
+      - Fixed issue where device could lose connection when system enters sleep/hibernation mode.
+      - Fixed an occasional crash when applying a filter while zoomed in.
+      - Up / Down control buttons no longer appear disabled after switching between tabs.
+      - Deep Measure - Fixed sort order of data in the table for Current Buffer
+      - Fixed several issues with triggers, including problems with dropout triggers and some settings not always being loaded.
+      - Fixed some problems decoding SIC XL waveforms with CAN XL.
+      - Improved application startup time during device connection
+      - Improved stability.
+      - Linux - The zoom overview's controls for maximise, minimise and close were not visible.
     </releaseNotes>
-    <iconUrl>https://cdn.jsdelivr.net/gh/gamgee/chocolatey-packages/icons/picoscope6.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/gamgee/chocolatey-packages/icons/picoscope7.png</iconUrl>
     <copyright>Copyright © 1995-2020, Pico Technology Ltd.</copyright>
   </metadata>
   <files>
