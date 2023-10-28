@@ -1,5 +1,7 @@
 # chocolatey packages
 
+> **This project is archived because i switched to winget**
+
 ## Development tips
 
 Generate empty package template
